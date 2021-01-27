@@ -1,0 +1,33 @@
+{
+  "name": "use-localstorage",
+  "version": "1.0.0",
+  "description": "Use localStorage with react hook",
+  "author": "Shenglong Yu <shenglongy@outlook.com>",
+  "main": "dist/use-localstorage.cjs.js",
+  "module": "dist/use-localstorage.es.js",
+  "jsnext:main": "dist/use-localstorage.es.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "localStorage",
+    "react",
+    "hooks"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "rollup": "^2.38.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  }
+}
