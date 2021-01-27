@@ -1,5 +1,5 @@
 {
-  "name": "use-localstorage",
+  "name": "@shenglong/use-localstorage",
   "version": "1.0.0",
   "description": "Use localStorage with react hook",
   "author": "Shenglong Yu <shenglongy@outlook.com>",
@@ -7,6 +7,7 @@
   "module": "dist/use-localstorage.es.js",
   "jsnext:main": "dist/use-localstorage.es.js",
   "types": "dist/index.d.js",
+  "license": "MIT",
   "files": [
     "dist",
     "README.md",
@@ -17,11 +18,17 @@
     "react",
     "hooks"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenglongy/use-localstorage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shenglongy/use-localstorage/issues"
+  },
+  "homepage": "https://github.com/shenglongy/use-localstorage#readme",
   "scripts": {
     "build": "rollup -c"
   },
-  
-  "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.0",
     "react": "^17.0.1",
