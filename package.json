@@ -21,7 +21,7 @@
     "build": "rollup -c"
   },
   
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.0",
     "react": "^17.0.1",
